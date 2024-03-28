@@ -15,17 +15,35 @@ body {
     overflow: hidden;
 }
 
-.title {
-    font-size: 100px;
-}
-
 .content {
     height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     z-index: 5;
     position: relative;
+}
+
+.img-wrapper {
+    max-height: 70vh;
+    max-width: 90vw;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.coming-soon-img {
+    max-height: 70vh;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 5em;
+    font-weight: bold;
+    color: #757575;
+    text-align: center;
 }
 
 .fuzzy-overlay {
