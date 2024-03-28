@@ -34,13 +34,15 @@ body {
 }
 
 .coming-soon-img {
+    max-width: 100%;
     max-height: 70vh;
     width: auto;
+    height: auto;
     margin-bottom: 20px;
 }
 
 .title {
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: bold;
     color: #757575;
     text-align: center;
@@ -52,7 +54,6 @@ body {
     background-image: url("../img/noise.png");
     opacity: 25%;
     z-index: 10;
-    /* pointer-events: none; */
 
     animation: shift .3s steps(8) infinite both;
 }
